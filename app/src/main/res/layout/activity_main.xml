@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/doge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/doge"
+        />
+    <TextView
+        android:id="@+id/lisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:text="Lisa,"
+        />
+
+    <TextView
+        android:id="@+id/suchvalentine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lisa"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:fontFamily="serif-monospace"
+        android:text="SUCH VALENTINE"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/veryhearts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/muchsweet"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="very\nhearts"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/muchsweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suchvalentine"
+        android:layout_marginTop="124dp"
+        android:gravity="center"
+        android:layout_marginRight="1dp"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:text="much\nsweet"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/solove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/joe"
+        android:layout_alignLeft="@+id/lisa"
+        android:layout_alignStart="@+id/lisa"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:text="so love"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="52sp" />
+
+    <TextView
+        android:id="@+id/lol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/solove"
+        android:layout_marginRight="12dp"
+        android:layout_above="@+id/joe"
+        android:layout_below="@+id/solove"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-bold"
+        android:text="lol"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="46sp" />
+    <TextView
+        android:id="@+id/joe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="-Joe"
+        />
+
+</RelativeLayout>
